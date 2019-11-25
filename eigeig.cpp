@@ -22,7 +22,7 @@ int main(){
         vec15d(i) = i;
     }
 
-    std::cout<<"15d vec:\n " << vec15d.transpose()<<std::endl;
+    std::cout<<"15d vec:\n" << vec15d.transpose()<<std::endl;
 
     vec15d.segment(3,6).setZero();
 
