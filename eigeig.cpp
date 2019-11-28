@@ -1,6 +1,5 @@
 #include <iostream>
 #include <Eigen/Dense>
-
 #ifndef I3
 #define I3 Eigen::MatrixXd::Identity(3,3)
 #endif

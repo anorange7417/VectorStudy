@@ -6,9 +6,10 @@ set(CMAKE_BUILD_TYPE Debug)
 
 include_directories(
     /home/yhcho/Desktop/ShinSung/Eigen
+    ../Eigen/
 )
 
 add_executable(
-    eig
-    eigeig.cpp
+    testdf
+    test.cpp
 )
